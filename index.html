@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai Financial Services - Financial Solutions</title>
+  <meta name="description" content="Comprehensive financial solutions with 24/7 support across Maharashtra">
+  <meta name="keywords" content="financial services, banking solutions, document verification, Maharashtra">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.jpeg" alt="Sai Financial Logo" class="brand-logo">
+        </a>
+        <h3 style="text-align: center; text-decoration: dashed;"><b>sai financial services</b></h3>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <a href="#contact" class="cta-btn ms-lg-3">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="hero-title mb-4">
+            Financial Solutions for Sustainable Growth
+          </h1>
+          <p class="lead mb-4">
+            Secure, Smart & Trusted Financial Solutions
+          </p>
+          <p class="maint mb-4">
+            Happy Customers | 15+ Bank Partners | Pan-Maharashtra Presence
+          </p>
+          <a href="#services" class="cta-btn">Explore Services</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="finance-containerclogo">
+            <div class="finance-image">
+              <img src="assets/img/logo.jpeg" alt="Business Solutions" class="finance-logo">
+              <h2><b>Sai Financial Services</b></h2>
+              <p class="finance-subtext">Your Growth, Our Commitment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const heroSection = document.querySelector('.hero-section');
+      const backgrounds = [
+        'url("assets/img/hero-bg1.jpg")',
+        'url("assets/img/hero-bg2.jpg")',
+        'url("assets/img/hero-bg3.jpg")'
+      ];
+      let currentIndex = 0;
+
+      function changeBackground() {
+        heroSection.style.backgroundImage = backgrounds[currentIndex];
+        currentIndex = (currentIndex + 1) % backgrounds.length;
+      }
+
+      setInterval(changeBackground, 30000); // Change background every 30 seconds
+    </script>
+    </script>
+  </section>
+
+  <br>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="about-us section">
+
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <!-- About Us Content -->
+        <div class="col-lg-6 d-flex flex-column justify-content-center" herf="#about">
+          <h2 class="ab-heading">About : </h2>
+          <h2>Sai Financial Services</h2>
+          <p class="lead">
+            At SAI Financial Services, we are dedicated to providing comprehensive financial solutions that empower
+            individuals and businesses to achieve their goals. With over a decade of experience, we have built a
+            reputation for trust, transparency, and excellence in the financial services industry.
+          </p>
+          <p>
+            Our team of experts specializes in a wide range of services, including address verification, fraud
+            detection, cheque bouncing resolution, and secure recovery. We leverage cutting-edge technology and a
+            customer-centric approach to deliver tailored solutions that meet your unique needs.
+          </p>
+
+        </div>
+
+        <!-- About Us Image -->
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="about-img">
+            <img src="assets/img/about-us.jpg" alt="About Us" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section><!-- /About Us Section -->
+
+  <!-- CEO Info Card Section -->
+  <section id="ceo-info" class="ceo-info section">
+
+    <div class="container" data-aos="fade-up">
+
+      <div class="ceo-card">
+        <!-- CEO Photo -->
+        <div class="ceo-photo">
+          <img src="assets/img/founder.jpg" alt="CEO Photo" class="img-fluid">
+        </div>
+
+        <!-- CEO Content -->
+        <div class="ceo-content">
+          <h3>Message from Our CEO</h3>
+          <p class="ceo-statement">
+            At Sai Financial Services, our mission is to empower businesses and individuals with secure, innovative, and
+            reliable financial solutions. With over a decade of experience and partnerships with leading banks, we have
+            built a reputation for excellence in financial consulting, fraud prevention, and secure banking services.
+            Our commitment is to provide transparency, trust, and tailored strategies that help our clients achieve
+            financial stability and growth. We believe in leveraging technology and expertise to simplify complex
+            financial challenges, ensuring every client receives the best possible service. Together, we strive to make
+            finance more accessible, efficient, and secure for all."
+          </p>
+          <div class="ceo-details">
+            <p><strong>Mr. Rahul Sutar</strong></p>
+            <p>CEO & Founder, SAI Financial Services</p>
+          </div>
+          <a href="#about" class="cta-btn">Learn More About Us</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section><!-- /CEO Info Card Section -->
+
+
+  <!-- Motive and Vision Section -->
+  <section class="motive-vision-section">
+    <div class="container">
+      <div class="row">
+        <!-- Motive Section -->
+        <div class="col-lg-6">
+          <div class="motive-card">
+            <h2>Our Motive</h2>
+            <p>
+              At <strong>SAI Financial Services</strong>, our primary goal is to provide <span
+                class="highlight">comprehensive financial solutions</span> that empower individuals and businesses to
+              achieve their goals. With over <span class="highlight">10,000 happy customers</span> and partnerships with
+              <span class="highlight">15+ banks</span>, we are committed to delivering <span class="highlight">secure,
+                smart, and trusted</span> services across Maharashtra.
+            </p>
+            <p>
+              We specialize in addressing critical financial challenges, including <span class="highlight">fraud
+                detection, cheque bouncing, NPA resolution, and employee verification</span>. Our mission is to simplify
+              financial processes and ensure <span class="highlight">transparency, efficiency, and customer
+                satisfaction</span>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="col-lg-6">
+          <div class="vision-card">
+            <h2>Our Vision</h2>
+            <p>
+              Our vision is to become the <span class="highlight">most trusted financial partner</span> for individuals
+              and businesses across India. We aim to leverage cutting-edge technology and a customer-centric approach to
+              provide <span class="highlight">innovative solutions</span> that drive sustainable growth.
+            </p>
+            <p>
+              By expanding our reach and enhancing our services, we strive to create a <span
+                class="highlight">financially empowered society</span> where everyone has access to reliable and
+              efficient financial solutions. Our focus is on building long-term relationships based on <span
+                class="highlight">trust, integrity, and excellence</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Motive and Vision Section -->
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <!-- Service 1 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/Address.png" alt="Address Verification Icon">
+          </div>
+          <h3>Address & Document Verification</h3>
+          <p>We provide thorough verification services to ensure the authenticity of addresses and documents.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/Location.png" alt="Location Searching Icon">
+          </div>
+          <h3>Customer Live Location Searching</h3>
+          <p>Our advanced tools help in locating customers in real-time for verification purposes.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/Defaulter.png" alt="Fraud Verification Icon">
+          </div>
+          <h3>Fraud & Defaulter Verification</h3>
+          <p>Identify potential frauds and defaulters with our comprehensive verification services.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/cheque.png" alt="Cheque Bouncing Icon">
+          </div>
+          <h3>Cheque Bouncing & Count Matter</h3>
+          <p>Resolve cheque bouncing issues and manage count matters efficiently.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/Man Power.png" alt="Manpower Management Icon">
+          </div>
+          <h3>Man Power Management</h3>
+          <p>Optimize your workforce with our expert manpower management solutions.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/recovery.png" alt="Recovery Icon">
+          </div>
+          <h3>Secure Recovery & Collection</h3>
+          <p>Ensure secure recovery and collection of dues with our professional services.</p>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/Compliance.png" alt="Manpower Management Icon">
+          </div>
+          <h3>Legal & Compliance Assistance</h3>
+          <p>Ensuring businesses adhere to financial regulations and legal requirements for secure operations.</p>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/img/services/Credit Score.png" alt="Manpower Management Icon">
+          </div>
+          <h3>Credit Score Improvement & Advisory</h3>
+          <p>Helping individuals and businesses enhance their credit scores for better financial opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="partners-section">
+    <div class="container">
+      <h2>Our Trusted Partners</h2>
+      <p class="sub-text">We collaborate with industry leaders to deliver exceptional financial solutions.</p>
+
+      <div class="partners-grid">
+        <!-- Partner 1 -->
+        <div class="partner-card">
+          <img src="/assets/img/partner/partner1.png" alt="Partner 1 Logo" class="partner-logo">
+        </div>
+
+        <!-- Partner 2 -->
+        <div class="partner-card">
+          <img src="/assets/img/partner/partner2.png" alt="Partner 2 Logo" class="partner-logo">
+        </div>
+
+        <!-- Partner 3 -->
+        <div class="partner-card">
+          <img src="/assets/img/partner/partner3.png" alt="Partner 3 Logo" class="partner-logo">
+        </div>
+
+
+      </div>
+  </section><!-- /Partners Section -->
+
+  <!-- Branches Section -->
+  <section class="branches-section">
+    <div class="container">
+      <h2>Our Branches in Maharashtra</h2>
+      <p class="sub-text">With 9 branches across Maharashtra, we are closer to you than ever.</p>
+
+      <div class="branches-content">
+        <!-- Maharashtra Map -->
+        <div class="map-container">
+          <img src="/assets/img/maharashtra61.gif" alt="Maharashtra Map" class="maharashtra-map">
+          <!-- Branch Markers -->
+          <div class="marker" style="top: 20%; left: 30%;" data-branch="Ch. Sambhajinagar">
+
+            <div class="marker-info">Ch. Sambhajinagar</div>
+          </div>
+          <div class="marker" style="top: 35%; left: 25%;" data-branch="Beed">
+
+            <div class="marker-info">Beed</div>
+          </div>
+          <div class="marker" style="top: 40%; left: 50%;" data-branch="Pune">
+
+            <div class="marker-info">Pune</div>
+          </div>
+          <div class="marker" style="top: 55%; left: 60%;" data-branch="Nanded">
+
+            <div class="marker-info">Nanded</div>
+          </div>
+          <div class="marker" style="top: 60%; left: 45%;" data-branch="Latur">
+
+            <div class="marker-info">Latur</div>
+          </div>
+          <div class="marker" style="top: 50%; left: 20%;" data-branch="Ahmednagar">
+
+            <div class="marker-info">Ahmednagar</div>
+          </div>
+          <div class="marker" style="top: 70%; left: 35%;" data-branch="Jalna">
+
+            <div class="marker-info">Jalna</div>
+          </div>
+          <div class="marker" style="top: 75%; left: 55%;" data-branch="Mumbai">
+
+            <div class="marker-info">Mumbai</div>
+          </div>
+        </div>
+
+        <!-- Branch Details -->
+        <div class="branch-details">
+          <h3>Branch Details</h3>
+          <ul>
+            <li><strong>Ch. Sambhajinagar</li>
+            <li><strong>Beed</li>
+            <li><strong>Pune</li>
+            <li><strong>Nanded</li>
+            <li><strong>Latur</li>
+            <li><strong>Ahmednagar</li>
+            <li><strong>Jalna</li>
+            <li><strong>Mumbai</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Branches Section -->
+
+  <!--concat card-->
+
+  <section class="contact-card" id="contact-card">
+    <div class="contact-content">
+      <p class="contact-tagline">ARE YOU LOOKING FOR SOMEONE TO HELP?</p>
+      <h2 class="contact-main-heading">Let us help you! <span>Call Now:</span>+918080114509</h2>
+
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> saifinancial999@gmail.com</p>
+        <p><i class="fas fa-clock"></i> Mon - Sat 10:00 AM - 5:00 PM</p>
+      </div>
+
+      <hr class="contact-line">
+  <!-- Dynamic Call/Email Button -->
+      <div class="contact-action-btn">
+        <a class="contact-cta" id="contact-cta">
+          <i class="fas fa-phone"></i> Contact Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const contactCta = document.getElementById("contact-cta");
+      const phoneNumber = "+918080114509"; // Replace with your phone number
+      const emailAddress = "saifinancial999@gmail.com"; // Replace with your email
+
+      // Check if the device is mobile
+      if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+        contactCta.innerHTML = '<i class="fas fa-phone"></i> Call Now';
+        contactCta.href = "tel:" + phoneNumber; // Set href for calling
+      } else {
+        // For desktop devices
+        contactCta.innerHTML = '<i class="fas fa-envelope"></i> Email Now';
+        contactCta.href = "mailto:" + emailAddress; // Set href for email
+      }
+    });
+  </script>
+
+  <section class="clippy-stats-section" id="clippy-stats">
+    <div class="clippy-stats-container">
+      <!-- Active Clients -->
+      <div class="clippy-stat-box" id="clippy-active-clients">
+        <div class="clippy-stat-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3 class="clippy-stat-number" data-count="100">0</h3>
+        <p class="clippy-stat-text">Active Clients</p>
+      </div>
+
+      <!-- Happy Customers -->
+      <div class="clippy-stat-box" id="clippy-happy-customers">
+        <div class="clippy-stat-icon">
+          <i class="fas fa-smile"></i>
+        </div>
+        <h3 class="clippy-stat-number" data-count="500">0</h3>
+        <p class="clippy-stat-text">Happy Customers</p>
+      </div>
+
+      <!-- Our Branches -->
+      <div class="clippy-stat-box" id="clippy-our-branches">
+        <div class="clippy-stat-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <h3 class="clippy-stat-number" data-count="9">0</h3>
+        <p class="clippy-stat-text">Our Branches</p>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const statNumbers = document.querySelectorAll(".clippy-stat-number");
+
+        statNumbers.forEach((statNumber) => {
+          const target = parseInt(statNumber.getAttribute("data-count"));
+          let count = 0;
+          const duration = 2000; // Animation duration in milliseconds
+          const increment = target / (duration / 16); // 16ms per frame
+
+          const updateCount = () => {
+            count += increment;
+            if (count < target) {
+              statNumber.textContent = Math.ceil(count);
+              requestAnimationFrame(updateCount);
+            } else {
+              statNumber.textContent = target;
+            }
+          };
+
+          updateCount();
+        });
+      });
+    </script>
+  </section>
+
+  <!-- ======= Footer Section ======= -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-5">
+
+          <!-- About Column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-widget">
+              <img src="assets/img/logo.jpeg" alt="Sai Financial" class="footer-logo mb-3">
+              <h3> Sai Financial Services</h3>
+              <p class="footer-text">Empowering financial growth across Maharashtra with trusted solutions and 24/7
+                support.</p>
+              <div class="social-links">
+                <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-widget">
+              <h4 class="footer-heading">Our Services</h4>
+              <ul class="footer-links">
+                <li><a href="#"><i class="bi bi-chevron-right"></i> Document Verification</a></li>
+                <li><a href="#"><i class="bi bi-chevron-right"></i> Financial Audits</a></li>
+                <li><a href="#"><i class="bi bi-chevron-right"></i> Debt Recovery</a></li>
+                <li><a href="#"><i class="bi bi-chevron-right"></i> Investment Planning</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-widget">
+              <h4 class="footer-heading">Contact Info</h4>
+              <ul class="footer-contact">
+                <li><i class="bi bi-geo-alt"></i>Beed Jalna Road, Georai Dist. Beed</li>
+                <li><i class="bi bi-telephone"></i><a href="tel:+918080114509">8080 114 509</a></li>
+                <li><i class="bi bi-envelope"></i><a
+                    href="mailto:saifinancial999@gmail.com">saifinancial999@gmail.com</a></li>
+                <li><i class="bi bi-clock"></i>Mon-Sat: 9AM - 7PM</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Newsletter Column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-widget">
+              <h4 class="footer-heading">Newsletter</h4>
+              <p class="footer-text">Subscribe for financial insights and updates</p>
+              <form class="newsletter-form">
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <button type="submit" class="btn btn-primary mt-2">Subscribe</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright-text">
+              <p class="mb-0">&copy; 2025 Sai Financial Services. All Rights Reserved</p>
+              <div class="legal-links mt-2">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
